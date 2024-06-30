@@ -125,3 +125,83 @@ nav {
 .quote-content p {
     margin: 0;
 }
+/* Styling for the videos list section */
+.videos-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+/* Container for the videos list content */
+.videos-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Heading for the videos list section */
+.videos-heading {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #252a41;
+}
+
+/* Grid container for video blocks */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+/* Individual video block */
+.video-block {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    text-align: left;
+}
+
+/* Styling for video image */
+.video-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+/* Title for each video */
+.video-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #252a41;
+    margin-bottom: 8px;
+}
+
+/* Description for each video */
+.video-description {
+    font-size: 14px;
+    color: #707070;
+    margin-bottom: 16px;
+}
+
+/* Author block */
+.video-author {
+    display: flex;
+    align-items: center;
+}
+
+/* Author image */
+.author-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+/* Author name */
+.author-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #252a41;
+}
