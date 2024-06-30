@@ -1,0 +1,76 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #252a41;
+    padding: 16px 0;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    width: 40px; /* Adjust size based on your design */
+    height: 40px; /* Adjust size based on your design */
+    margin-right: 8px; /* Adjust spacing based on your design */
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px; /* Adjust spacing between links */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #252a41;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1a1d2b;
+    color: #ffffff;
+}
