@@ -74,3 +74,54 @@ nav {
     background-color: #1a1d2b;
     color: #ffffff;
 }
+/* Styling for the quote section */
+.quote-section {
+    background-color: #252a41;
+    color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+/* Container for the quote content */
+.quote-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Styling for the quote image */
+.quote-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Styling for the quote text */
+.quote-text {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* Styling for the quote author name */
+.quote-author {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* Styling for the quote author job */
+.quote-job {
+    font-size: 14px;
+    opacity: 0.75;
+}
+
+/* Additional styling for the quote content */
+.quote-content p {
+    margin: 0;
+}
